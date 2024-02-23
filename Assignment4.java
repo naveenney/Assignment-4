@@ -7,9 +7,8 @@ public class Assignment4 {
 		int cnt=0;
 		for(int i=0;i<arr.length;i++)
 		{   			
-			if(n==arr[i]) {
+			if(n==arr[i]) 
 				cnt++;
-			}
 			if(cnt==2)
 				return i;
 		}
